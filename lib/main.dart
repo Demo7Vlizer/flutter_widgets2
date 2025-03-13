@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/flutter_widgets/10_spacer_widgets.dart';
+import 'package:flutter_widgets/flutter_widgets/11_card_widgets.dart';
 import 'package:flutter_widgets/flutter_widgets/05_collumn_widget.dart';
 import 'package:flutter_widgets/flutter_widgets/06_row&collumn.dart';
 import 'package:flutter_widgets/flutter_widgets/07_expanded_widget.dart';
 import 'package:flutter_widgets/flutter_widgets/08_flexible_widget.dart';
-import 'package:flutter_widgets/flutter_widgets/text_widget.dart';
+import 'package:flutter_widgets/flutter_widgets/09_text_widget.dart';
+import 'package:flutter_widgets/flutter_widgets/12_center_widget.dart';
+import 'package:flutter_widgets/flutter_widgets/13_align_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,21 +23,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
@@ -46,7 +35,11 @@ class MyApp extends StatelessWidget {
       // home: row_collumn(),
       // home: expanded_widget(),
       // home: flexible_widget(),
-      home: text_widget(),
+      // home: text_widget(),
+      // home: spacer_widgets(), 
+      // home: card_widgets(),
+      // home: center_widget(),
+      home: align_widget(),
     );
   }
 }

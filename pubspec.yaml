@@ -63,7 +63,10 @@ flutter:
     - assets/image/girlPhoto.png
     - assets/diagram/nine_alignment_property.png
     - assets/diagram/image.png
-  #   - images/a_dot_ham.jpeg
+    - assets/image/face1.PNG
+    - assets/image/face2.PNG
+    - assets/image/face3.PNG
+    - assets/image/face4.PNG
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
