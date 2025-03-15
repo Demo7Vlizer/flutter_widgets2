@@ -10,6 +10,7 @@ import 'package:flutter_widgets/flutter_widgets/12_center_widget.dart';
 import 'package:flutter_widgets/flutter_widgets/13_align_widget.dart';
 import 'package:flutter_widgets/flutter_widgets/14_positioned_widget.dart';
 import 'package:flutter_widgets/flutter_widgets/15_stack_widget.dart';
+import 'package:flutter_widgets/flutter_widgets/16_divider_widgets.dart';
 
 void main() {
   runApp(const MyApp());
@@ -43,7 +44,8 @@ class MyApp extends StatelessWidget {
       // home: center_widget(),
       // home: align_widget(),
       // home: positioned_widgets(),
-      home: stack_widget(),
+      // home: stack_widget(),
+      home: divider_widgets(),
     );
   }
 }
