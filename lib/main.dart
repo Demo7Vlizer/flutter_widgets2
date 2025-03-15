@@ -18,6 +18,9 @@ import 'package:flutter_widgets/flutter_widgets/20_constrained_box.dart';
 import 'package:flutter_widgets/flutter_widgets/21_fittedBox_widget.dart';
 import 'package:flutter_widgets/flutter_widgets/22_fractionallySizedBox_widget.dart';
 import 'package:flutter_widgets/flutter_widgets/23_rotattedBox_widget.dart';
+import 'package:flutter_widgets/flutter_widgets/24_limitedBox_widget.dart';
+import 'package:flutter_widgets/flutter_widgets/25_opacity_widget.dart';
+import 'package:flutter_widgets/flutter_widgets/26_Icon_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -59,7 +62,10 @@ class MyApp extends StatelessWidget {
       // home: constrainedBox_widget(),
       // home: fittedBox_widget(),
       // home: FractionallySizedBox_widget(),
-      home: RotatedBox_widget(),
+      // home: RotatedBox_widget(),
+      // home: LimitedBox_widget(),
+      // home: Opacity_widget(),
+      home: Icon_widget(),
     );
   }
 }
