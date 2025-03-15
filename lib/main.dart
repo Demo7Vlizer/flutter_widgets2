@@ -13,6 +13,11 @@ import 'package:flutter_widgets/flutter_widgets/15_stack_widget.dart';
 import 'package:flutter_widgets/flutter_widgets/16_divider_widgets.dart';
 import 'package:flutter_widgets/flutter_widgets/17_verticalDivider_widgets.dart';
 import 'package:flutter_widgets/flutter_widgets/18_circleAvatar_widgets.dart';
+import 'package:flutter_widgets/flutter_widgets/19_sizedBox_widgets.dart';
+import 'package:flutter_widgets/flutter_widgets/20_constrained_box.dart';
+import 'package:flutter_widgets/flutter_widgets/21_fittedBox_widget.dart';
+import 'package:flutter_widgets/flutter_widgets/22_fractionallySizedBox_widget.dart';
+import 'package:flutter_widgets/flutter_widgets/23_rotattedBox_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -49,7 +54,12 @@ class MyApp extends StatelessWidget {
       // home: stack_widget(),
       // home: divider_widgets(),
       // home: verticalDivider_widgets(),
-      home: circleAvatar_widgets(),
+      // home: circleAvatar_widgets(),
+      // home: sizedBox_widgets(),
+      // home: constrainedBox_widget(),
+      // home: fittedBox_widget(),
+      // home: FractionallySizedBox_widget(),
+      home: RotatedBox_widget(),
     );
   }
 }

@@ -50,9 +50,6 @@ class circleAvatar_widgets extends StatelessWidget {
 }
 
 
-
-
-
 //-------------------------<(Porperties of CircleAvatar)>--------------------------- 
 // const CircleAvatar(
 //   {Key? key,
