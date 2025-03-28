@@ -14,7 +14,7 @@ class ListViewBuilder_widgets extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Learning ListView.Builder'),
+        title: const Text('Learning ListView.Builder'), 
       ),
       // body: ListView.builder(
       //   // itemCount: 4,             // this is for how much item we want show in list of items..
@@ -31,7 +31,7 @@ class ListViewBuilder_widgets extends StatelessWidget {
       body: ListView.builder(
 
         // cacheExtent: 0,
-        cacheExtent: 6000, // this will store the remaining list of item are not showing.. it'll store in memory..
+        cacheExtent: 6000, // this will store the remaining list of item are not showing.. it'll store in memory.. additional some items are showing.. in display.. 
 
         itemBuilder: (BuildContext context, int index){
           return getItem(index);
