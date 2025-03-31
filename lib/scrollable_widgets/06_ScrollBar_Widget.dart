@@ -7,7 +7,6 @@ class ScrollBar_Widgets extends StatelessWidget {
   const ScrollBar_Widgets({Key? key}) : super(key: key);
 
   @override
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Scrollbar Test')),

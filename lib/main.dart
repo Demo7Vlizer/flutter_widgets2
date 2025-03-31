@@ -28,6 +28,7 @@ import 'package:flutter_widgets/scrollable_widgets/02_ListView.builder_widgets.d
 import 'package:flutter_widgets/scrollable_widgets/03_ListView.separated_widgets.dart';
 import 'package:flutter_widgets/scrollable_widgets/04_ListView.custom.dart';
 import 'package:flutter_widgets/scrollable_widgets/06_ScrollBar_Widget.dart';
+import 'package:flutter_widgets/scrollable_widgets/07_Scroll%20on%20Tap.dart';
 
 void main() {
   runApp(const MyApp());
@@ -82,7 +83,9 @@ class MyApp extends StatelessWidget {
       // home: ListViewSeparated_widgets()
       // home: ListViewCustomWidgets()
       // home: SingleChildScrollView()
-      home:ScrollBar_Widgets()
+      // home:ScrollBar_Widgets()
+      home: TapToSCroll(),
+
     );
   }
 }
