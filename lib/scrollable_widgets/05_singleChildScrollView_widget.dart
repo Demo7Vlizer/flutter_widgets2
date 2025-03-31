@@ -32,7 +32,7 @@ class SingleChildScrollViewWidget extends StatelessWidget {
         keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
 
 
-        
+          
 
         child:  Column(
           children: [
